@@ -27,13 +27,13 @@ export default function App() {
 
   return (
     <>
-      <h1>Contador com <span>LocalStorage</span></h1>
+      <h1>Contador</h1>
       
       <h2>{count}</h2>
       <div className="counter">
-        <button onClick={decrement}>-1</button>
+        <button onClick={decrement}>-</button>
         <button onClick={reset}>Zerar</button>
-        <button onClick={increment}>+1</button>
+        <button onClick={increment}>+</button>
       </div>
     </>
   )

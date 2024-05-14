@@ -11,12 +11,13 @@
   place-content: center;
   text-align: center;
   gap: 20px;
-  background-color: #eeeeee;
+  background-color: #2f2f2f;
 }
 
 h1 {
   display: flex;
   flex-direction: column;
+  color: #ffffff;
 }
 
 span {
@@ -32,11 +33,11 @@ span {
 
 .counter button {
   padding: 5px;
-  border: none;
-  border-radius: 5px;
+  border-color: #fff;
+  border-radius: 11px;
   font-weight: bold;
   color: #fff;
-  background-color: #1a1a1a;
+  background-color: #0d7d8f;
   transition: .3s all ease;
   cursor: pointer;
 }
